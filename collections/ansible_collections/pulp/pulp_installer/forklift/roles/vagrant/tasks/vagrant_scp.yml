@@ -1,3 +1,0 @@
----
-- name: 'install vagrant-scp'
-  command: vagrant plugin install vagrant-scp

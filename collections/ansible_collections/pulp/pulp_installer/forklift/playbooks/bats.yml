@@ -1,6 +1,0 @@
-- hosts: all
-  become: true
-  roles:
-    - disable_firewall
-    - haveged
-    - bats

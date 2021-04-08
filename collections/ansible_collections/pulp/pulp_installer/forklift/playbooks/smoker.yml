@@ -1,7 +1,0 @@
-- hosts: all
-  roles:
-    - role: epel_repositories
-      become: true
-    - role: etc_hosts
-      become: true
-    - smoker

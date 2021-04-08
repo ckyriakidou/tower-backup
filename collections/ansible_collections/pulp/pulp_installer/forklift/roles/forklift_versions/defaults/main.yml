@@ -1,2 +1,0 @@
-forklift_versions_file: "{{ lookup('env', 'PWD') }}/vagrant/config/versions.yaml"
-upgrade: False

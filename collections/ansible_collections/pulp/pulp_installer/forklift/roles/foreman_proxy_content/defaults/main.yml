@@ -1,4 +1,0 @@
----
-custom_install: False
-foreman_proxy_content_upgrade: False
-foreman_proxy_content_certs_args: ""

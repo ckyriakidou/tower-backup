@@ -1,8 +1,0 @@
----
-bats_packages:
-  - curl
-  - ruby
-  - git
-  - yum-utils
-  - podman
-  - sos

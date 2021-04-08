@@ -1,7 +1,0 @@
----
-- hosts: all
-  roles:
-    - etc_hosts
-    - git
-    - ruby_scl
-    - dynflow_devel
