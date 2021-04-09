@@ -1,10 +1,12 @@
 ---
 - hosts: localhost
   any_errors_fatal: true
+  become: false
   tasks:
     - name: Determine the timestamp for the backup one for all nodes
       set_fact:
         now: '{{ lookup("pipe", "date +%F-%T") }}'
+      become: false
 
 - hosts: tower:instance_group_*:automationhub
   any_errors_fatal: true
