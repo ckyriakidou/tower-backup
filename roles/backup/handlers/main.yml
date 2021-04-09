@@ -24,3 +24,4 @@
     path: '{{ backup_dest.rstrip("/") }}/{{ now }}'
     state: absent
   delegate_to: localhost
+  become: false
